@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1dd36f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #0af373,#1dd16e,#1A5D38);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#cabeca > p {
+    margin: 30px;
+}
+
+#links {
+    margin-top: 15px;
+    text-align: left;
+
+}
+
+#links > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.corpo {
+  background-color: white;
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 25px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+
+.corpo > article > h1 {
+    font-family: idr, sans-serif;
+    color: green;
+    font-weight: normal;
+}
+
+.corpo > article > h2 {
+    font-family: idr,sans-serif;
+    font-weight: normal;
+    color: green;
+    background-color: rgba(144, 238, 144, 0.295);
+}
+
+p {
+    text-indent: 20px;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.frases {
+    font-weight: bold;
+    color: green;
+}
+
+.print  {
+    background-color: green;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    width: 900px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.print > img {
+    width: 800px;
+    box-shadow: 3px 2px 3px black;
+}
+
+.final {
+    background-color: white;
+    margin:auto;
+    max-width: 100%;
+    width: 900px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 30px;
+}
+
+#mais {
+    background-color:green;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px rgba(0,0,0,0.4);
+}
+
+.parte {
+    background-color: #1dd16e;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 10px 5px 15px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+
+.lista {
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.lista li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.lista li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: blacck ;
+}
+
+.fim {
+    text-align: left;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: rgb(6, 99, 6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
