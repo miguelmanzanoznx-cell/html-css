@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: greenyellow;
+        }
+
+        col.cnome, col.cprofissao {
+            background-color: lightgreen;
+        }
+
+        col.csexo, col.cidade {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Analista de Sistemas</td>
+
+        </tr>
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Engenheira de Software</td>
+        </tr>
+        <tr>
+            <td>Cláudia Melo</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Desenvolvedora Web</td>
+        </tr>
+        <tr>
+            <td>Daniel Oliveira</td>
+            <td>Masculino</td>
+            <td>32</td>
+            <td>Analista de Dados</td>
+        </tr>
+        <tr>
+            <td>Bruno Mendonça</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Desenvolvedor Mobile</td>
+        </tr>
+        <tr>
+            <td>Neymar Junior</td>
+            <td>Masculino</td>
+            <td>34</td>
+            <td>Jogador de Futebol</td>
+        </tr>
+    </table>
+</body>
+</html>
